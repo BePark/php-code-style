@@ -1,0 +1,6 @@
+{
+    "name": "bepark/php-code-style",
+    "description": "Package for providing unified configuration for code style",
+    "type": "library",
+    "license": "proprietary"
+}
