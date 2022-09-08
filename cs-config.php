@@ -1,7 +1,21 @@
 <?php
 
 return [
-    //Old rules
+    //PSRs
+    '@PHP80Migration'=>true,
+    '@PhpCsFixer' => true,
+    '@PSR12' => true,
+
+    //Overrides
+    'array_syntax' => ['syntax' => 'short'],
+    'indentation_type' => true,
+    'concat_space' => [
+        'spacing' => 'one',
+    ],
+    'multiline_whitespace_before_semicolons'=> ['strategy' => 'no_multi_line'],
+    'no_unused_imports' => true,
+    'ordered_imports' => ['sort_algorithm' => 'alpha'],
+    
     'no_null_property_initialization' => false,
     'no_superfluous_phpdoc_tags' => false,
     'phpdoc_align' => false,
@@ -20,19 +34,4 @@ return [
         'identical' => null,
         'less_and_greater' => null,
     ],
-
-    //PSRs
-    '@PHP80Migration'=>true,
-    '@PhpCsFixer' => true,
-    '@PSR12' => true,
-
-    //Overrides
-    'array_syntax' => ['syntax' => 'short'],
-    'indentation_type' => true,
-    'concat_space' => [
-        'spacing' => 'one',
-    ],
-    'multiline_whitespace_before_semicolons'=> ['strategy' => 'no_multi_line'],
-    'no_unused_imports' => true,
-    'ordered_imports' => ['sort_algorithm' => 'alpha'],
 ];
