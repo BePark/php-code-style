@@ -27,8 +27,6 @@ return [
     'phpdoc_var_annotation_correct_order' => false,
     'php_unit_internal_class' => [],
     'php_unit_test_class_requires_covers' => false,
-    'single_space_after_construct' => false,
-    'single_trait_insert_per_statement' => false,
     'yoda_style' => [
         'equal' => false,
         'identical' => null,
