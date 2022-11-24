@@ -15,7 +15,12 @@ return [
     'multiline_whitespace_before_semicolons'=> ['strategy' => 'no_multi_line'],
     'no_unused_imports' => true,
     'ordered_imports' => ['sort_algorithm' => 'alpha'],
-    
+    'global_namespace_import' => [
+        'import_classes' => true,
+        'import_constants' => true,
+        'import_functions' => null
+    ],
+
     'no_null_property_initialization' => false,
     'no_superfluous_phpdoc_tags' => false,
     'phpdoc_align' => false,
