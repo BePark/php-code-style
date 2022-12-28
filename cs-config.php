@@ -2,7 +2,7 @@
 
 return [
     //PSRs
-    '@PHP80Migration'=>true,
+    '@PHP82Migration'=>true,
     '@PhpCsFixer' => true,
     '@PSR12' => true,
 
