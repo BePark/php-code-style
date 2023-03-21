@@ -32,6 +32,7 @@ return [
     'phpdoc_var_annotation_correct_order' => false,
     'php_unit_internal_class' => [],
     'php_unit_test_class_requires_covers' => false,
+    'single_line_comment_style' => false,
     'yoda_style' => [
         'equal' => false,
         'identical' => null,
