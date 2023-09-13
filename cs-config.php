@@ -33,6 +33,7 @@ return [
     'php_unit_internal_class' => [],
     'php_unit_test_class_requires_covers' => false,
     'single_line_comment_style' => false,
+    'single_line_empty_body' => false,
     'yoda_style' => [
         'equal' => false,
         'identical' => null,
