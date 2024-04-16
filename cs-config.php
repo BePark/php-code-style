@@ -30,7 +30,7 @@ return [
     'phpdoc_single_line_var_spacing' => false,
     'phpdoc_summary' => false,
     'phpdoc_var_annotation_correct_order' => false,
-    'php_unit_internal_class' => [],
+    'php_unit_internal_class' => ['types' => []],
     'php_unit_test_class_requires_covers' => false,
     'single_line_comment_style' => false,
     'single_line_empty_body' => false,
